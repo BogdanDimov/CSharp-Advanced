@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximalSum", "MaximalSum\Ma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequenceInMatrix", "SequenceInMatrix\SequenceInMatrix.csproj", "{0C539F29-E5CB-43ED-98D4-CA4314159D2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargestAreaInMatrix", "LargestAreaInMatrix\LargestAreaInMatrix.csproj", "{5412F772-91E4-4A4A-A408-3AF307A54367}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0C539F29-E5CB-43ED-98D4-CA4314159D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C539F29-E5CB-43ED-98D4-CA4314159D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C539F29-E5CB-43ED-98D4-CA4314159D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5412F772-91E4-4A4A-A408-3AF307A54367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5412F772-91E4-4A4A-A408-3AF307A54367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5412F772-91E4-4A4A-A408-3AF307A54367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5412F772-91E4-4A4A-A408-3AF307A54367}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
