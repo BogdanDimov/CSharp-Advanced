@@ -11,18 +11,18 @@ namespace BinaryShort
 
             if (n < 0)
             {
-                if (n == Math.Pow(-2, 15))
-                {
-                    return "1000000000000000";
-                }
+                //if (n == short.MinValue)
+                //{
+                //    return "1000000000000000";
+                //}
 
                 numberIsNegative = true;
                 n *= -1;
             }
-            else if (n == 0)
-            {
-                return "0000000000000000";
-            }
+            //else if (n == 0)
+            //{
+            //    return "0000000000000000";
+            //}
 
             while (n > 0)
             {
@@ -30,6 +30,7 @@ namespace BinaryShort
                 n /= 2;
             }
 
+            
             for (int i = 0; i < bin.Length % 16; i++) //add missing zeros
             {
                 bin = "0" + bin;
@@ -52,6 +53,7 @@ namespace BinaryShort
                     }
                 }
 
+                // 3rd step -- add 1
                 bool carry = false;
                 if (bin_c[bin_c.Length - 1] == '1')
                 {
