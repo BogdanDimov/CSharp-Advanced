@@ -29,7 +29,7 @@ namespace FirstLargerThanNeighbors
 
             Console.WriteLine(GetIndexOfFirstLarger(nums));
 
-            string.Join("",numsString).
+            string.Join("", numsString);
         }
     }
 }
